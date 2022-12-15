@@ -29,7 +29,9 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Digitic.</Link>
+                <Link to="/" className="text-white">
+                  Digitic.
+                </Link>
               </h2>
             </div>
             <div className="col-5">
@@ -49,7 +51,10 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/comparer"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/compare.svg" alt="comparer" />
                     <p className="mb-0">
                       Comparer <br />
@@ -58,7 +63,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/favoris"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/wishlist.svg" alt="favoris" />
                     <p className="mb-0">
                       Favoris <br />
@@ -67,7 +75,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/connexion"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/user.svg" alt="connexion" />
                     <p className="mb-0">
                       Connexion <br />
@@ -76,7 +87,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="panier"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img src="/images/cart.svg" alt="panier" />
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark">0</span>
@@ -132,7 +146,7 @@ const Header = () => {
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">Accueil</NavLink>
                     <NavLink to="/boutique">Boutique</NavLink>
-                    <NavLink to="/">Blogs</NavLink>
+                    <NavLink to="/blog">Blogs</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
                   </div>
                 </div>
