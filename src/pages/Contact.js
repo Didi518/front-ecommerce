@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="col-12">
               <iframe
                 title="contactez-nous"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.907945060295!2d3.882584815568433!3d43.60845827912283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6afa047b78a77%3A0x2a496e9a99a5d4a5!2sPolygone%20Montpellier!5e0!3m2!1sfr!2sfr!4v1671102775859!5m2!1sfr!2sfr"
+                src="https:/www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.907945060295!2d3.882584815568433!3d43.60845827912283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6afa047b78a77%3A0x2a496e9a99a5d4a5!2sPolygone%20Montpellier!5e0!3m2!1sfr!2sfr!4v1671102775859!5m2!1sfr!2sfr"
                 width="600"
                 height="450"
                 className="b-0 w-100"

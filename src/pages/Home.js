@@ -18,7 +18,7 @@ const Home = () => {
             <div className="col-6">
               <div className="main-banner position-relative">
                 <img
-                  src="images/main-banner-1.jpg"
+                  src="/images/main-banner-1.jpg"
                   className="img-fluid rounded-3"
                   alt="bannière principale"
                 />
@@ -34,7 +34,7 @@ const Home = () => {
               <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
                 <div className="small-banner position-relative">
                   <img
-                    src="images/catbanner-01.jpg"
+                    src="/images/catbanner-01.jpg"
                     className="img-fluid rounded-3"
                     alt="bannière principale"
                   />
@@ -49,7 +49,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative">
                   <img
-                    src="images/catbanner-03.jpg"
+                    src="/images/catbanner-03.jpg"
                     className="img-fluid rounded-3"
                     alt="bannière principale"
                   />
@@ -64,7 +64,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative">
                   <img
-                    src="images/catbanner-02.jpg"
+                    src="/images/catbanner-02.jpg"
                     className="img-fluid rounded-3"
                     alt="bannière principale"
                   />
@@ -79,7 +79,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative">
                   <img
-                    src="images/catbanner-04.jpg"
+                    src="/images/catbanner-04.jpg"
                     className="img-fluid rounded-3"
                     alt="bannière principale"
                   />
@@ -103,35 +103,35 @@ const Home = () => {
             <div className="col-12">
               <div className="services d-flex align-items-center justify-content-between">
                 <div className="d-flex align-items-center gap-15">
-                  <img src="images/service.png" alt="services" />
+                  <img src="/images/service.png" alt="services" />
                   <div>
                     <h6>Livraisons Offertes</h6>
                     <p className="mb-0">Pour toute commande de 100€ et plus</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-                  <img src="images/service-02.png" alt="services" />
+                  <img src="/images/service-02.png" alt="services" />
                   <div>
                     <h6>Offres Surprises Quotidiennes</h6>
                     <p className="mb-0">Economisez jusqu'à 25%</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-                  <img src="images/service-03.png" alt="services" />
+                  <img src="/images/service-03.png" alt="services" />
                   <div>
                     <h6>Assistance 24/7</h6>
                     <p className="mb-0">Consultez nos experts</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-                  <img src="images/service-04.png" alt="services" />
+                  <img src="/images/service-04.png" alt="services" />
                   <div>
                     <h6>Meilleurs Tarifs</h6>
                     <p className="mb-0">Prix d'usine</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-                  <img src="images/service-05.png" alt="services" />
+                  <img src="/images/service-05.png" alt="services" />
                   <div>
                     <h6>Paiements Sécurisés</h6>
                     <p className="mb-0">règlements 100% sécurisés</p>
@@ -152,56 +152,56 @@ const Home = () => {
                     <h6>Music&Gaming</h6>
                     <p>10 articles</p>
                   </div>
-                  <img src="images/camera.jpg" alt="photographie" />
+                  <img src="/images/camera.jpg" alt="photographie" />
                 </div>
                 <div className="d-flex gap align-items-center">
                   <div>
                     <h6>Photo</h6>
                     <p>10 articles</p>
                   </div>
-                  <img src="images/camera.jpg" alt="photographie" />
+                  <img src="/images/camera.jpg" alt="photographie" />
                 </div>
                 <div className="d-flex gap align-items-center">
                   <div>
                     <h6>Smart Tv</h6>
                     <p>10 articles</p>
                   </div>
-                  <img src="images/tv.jpg" alt="photographie" />
+                  <img src="/images/tv.jpg" alt="photographie" />
                 </div>
                 <div className="d-flex gap align-items-center">
                   <div>
                     <h6>Montres</h6>
                     <p>10 articles</p>
                   </div>
-                  <img src="images/headphone.jpg" alt="photographie" />
+                  <img src="/images/headphone.jpg" alt="photographie" />
                 </div>
                 <div className="d-flex gap align-items-center">
                   <div>
                     <h6>Music&Gaming</h6>
                     <p>10 articles</p>
                   </div>
-                  <img src="images/camera.jpg" alt="photographie" />
+                  <img src="/images/camera.jpg" alt="photographie" />
                 </div>
                 <div className="d-flex gap align-items-center">
                   <div>
                     <h6>Photo</h6>
                     <p>10 articles</p>
                   </div>
-                  <img src="images/camera.jpg" alt="photographie" />
+                  <img src="/images/camera.jpg" alt="photographie" />
                 </div>
                 <div className="d-flex gap align-items-center">
                   <div>
                     <h6>Smart Tv</h6>
                     <p>10 articles</p>
                   </div>
-                  <img src="images/tv.jpg" alt="photographie" />
+                  <img src="/images/tv.jpg" alt="photographie" />
                 </div>
                 <div className="d-flex gap align-items-center">
                   <div>
                     <h6>Montres</h6>
                     <p>10 articles</p>
                   </div>
-                  <img src="images/headphone.jpg" alt="photographie" />
+                  <img src="/images/headphone.jpg" alt="photographie" />
                 </div>
               </div>
             </div>
@@ -227,7 +227,7 @@ const Home = () => {
             <div className="col-3">
               <div className="famous-card position-relative bg-dark">
                 <img
-                  src="images/famous-1.webp"
+                  src="/images/famous-1.webp"
                   className="img-fluid"
                   alt="famous"
                 />
@@ -241,7 +241,7 @@ const Home = () => {
             <div className="col-3">
               <div className="famous-card position-relative">
                 <img
-                  src="images/famous-2.webp"
+                  src="/images/famous-2.webp"
                   className="img-fluid"
                   alt="famous"
                 />
@@ -255,7 +255,7 @@ const Home = () => {
             <div className="col-3">
               <div className="famous-card position-relative">
                 <img
-                  src="images/famous-3.webp"
+                  src="/images/famous-3.webp"
                   className="img-fluid"
                   alt="famous"
                 />
@@ -271,7 +271,7 @@ const Home = () => {
             <div className="col-3">
               <div className="famous-card position-relative">
                 <img
-                  src="images/famous-4.webp"
+                  src="/images/famous-4.webp"
                   className="img-fluid"
                   alt="famous"
                 />
@@ -324,28 +324,28 @@ const Home = () => {
               <div className="marquee-inner-wrapper card-wrapper">
                 <Marquee className="d-flex">
                   <div className="mx-4 w-25">
-                    <img src="images/brand-01.png" alt="brand" />
+                    <img src="/images/brand-01.png" alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-02.png" alt="brand" />
+                    <img src="/images/brand-02.png" alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-03.png" alt="brand" />
+                    <img src="/images/brand-03.png" alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-04.png" alt="brand" />
+                    <img src="/images/brand-04.png" alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-05.png" alt="brand" />
+                    <img src="/images/brand-05.png" alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-06.png" alt="brand" />
+                    <img src="/images/brand-06.png" alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-07.png" alt="brand" />
+                    <img src="/images/brand-07.png" alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-08.png" alt="brand" />
+                    <img src="/images/brand-08.png" alt="brand" />
                   </div>
                 </Marquee>
               </div>

@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-items-center">
-                <img src="images/newsletter.png" alt="newsletter" />
+                <img src="/images/newsletter.png" alt="newsletter" />
                 <h2 className="mb-0 text-white">Inscription à la Newsletter</h2>
               </div>
             </div>
@@ -72,19 +72,33 @@ const Footer = () => {
             <div className="col-3">
               <h4 className="text-white mb-4">Informations</h4>
               <div className="footer-links d-flex flex-column">
-                <Link className="text-white py-2 mb-1">
+                <Link
+                  to="/politique-confidentialite"
+                  className="text-white py-2 mb-1"
+                >
                   Politique de Confidentialité
                 </Link>
-                <Link className="text-white py-2 mb-1">
+                <Link
+                  to="/politique-remboursement"
+                  className="text-white py-2 mb-1"
+                >
                   Politique de Remboursement
                 </Link>
-                <Link className="text-white py-2 mb-1">
+                <Link
+                  to="/politique-livraison"
+                  className="text-white py-2 mb-1"
+                >
                   Politique de Livraison
                 </Link>
-                <Link className="text-white py-2 mb-1">
+                <Link
+                  to="/conditions-generales"
+                  className="text-white py-2 mb-1"
+                >
                   Conditions Générales
                 </Link>
-                <Link className="text-white py-2 mb-1">Blogs</Link>
+                <Link to="/blogs" className="text-white py-2 mb-1">
+                  Blogs
+                </Link>
               </div>
             </div>
             <div className="col-3">
@@ -92,7 +106,9 @@ const Footer = () => {
               <div className="footer-links d-flex flex-column">
                 <Link className="text-white py-2 mb-1">Présentation</Link>
                 <Link className="text-white py-2 mb-1">FAQ</Link>
-                <Link className="text-white py-2 mb-1">Contacts</Link>
+                <Link to="/contact" className="text-white py-2 mb-1">
+                  Contacts
+                </Link>
               </div>
             </div>
             <div className="col-2">
