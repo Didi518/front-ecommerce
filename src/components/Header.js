@@ -88,7 +88,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link
-                    to="panier"
+                    to="/panier"
                     className="d-flex align-items-center gap-10 text-white"
                   >
                     <img src="/images/cart.svg" alt="panier" />
